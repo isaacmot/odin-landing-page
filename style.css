@@ -1,6 +1,6 @@
 #first {
     background-color: #1F2937;
-    padding: 16px 100px 50px;
+    padding: 16px 236px 0px;
 }
 
 #headerlogo {
@@ -12,6 +12,7 @@
 #header {
     display: flex;
     justify-content: space-between;
+    padding: 0px;
 }
 
 #links {
@@ -31,10 +32,22 @@ body {
     color: #f9faf8
 }
 
+#small {
+    font-size: 18px;
+    color: #e5e7eb
+}
 #first_content {
     display: flex;
 }
 
+#first_text {
+    flex: 1;
+}
 #placeholder {
-    background-color: ;
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb
 }
