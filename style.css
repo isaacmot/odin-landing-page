@@ -20,34 +20,138 @@
     color: #e5e7eb;
     justify-content: space-between;
     gap: 16px;
+    font-size: 18px;
 }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 #big {
     font-size: 42px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #f9faf8
 }
 
 #small {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
+
 #first_content {
     display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #first_text {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
 }
 #placeholder {
-    background-color: grey;
+    background-color: rgb(99, 106, 128);
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #e5e7eb
+}
+
+#first_button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    align-self: flex-start;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px 10px;
+    border: none;
+}
+
+#second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 48px 260px 48px;
+}
+
+#items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+}
+
+.square {
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 16px;
+    display: flex;
+    flex: 1 0 auto;
+    height: auto;
+    border-width: 5px;
+}
+
+.square:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#random_info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+#third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 300px 100px;
+}
+
+#quote {
+    font-size: 38px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#thor {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+#fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px 100px;
+}
+
+#container {
+    background-color: #3882f6;
 }
