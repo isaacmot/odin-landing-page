@@ -115,6 +115,7 @@ body {
 .description {
     display: flex;
     flex-wrap: wrap;
+    color:rgb(99, 106, 128);
 }
 
 #random_info {
@@ -154,4 +155,46 @@ body {
 
 #container {
     background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 60px 160px 60px;
+    border-radius: 8px;
+}
+
+#fourth_button {
+    align-self: center;
+    flex-shrink: 0;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px 20px 5px;
+    font-weight: bold;
+}
+
+#fourth_text {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+#call_to_action {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex: auto;
+}
+
+#click_the_button {
+    display: flex;
+    flex: auto;
+}
+
+#fifth {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 100px 32px;
+    color: white;
 }
